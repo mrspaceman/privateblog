@@ -9,13 +9,13 @@ image: aaspellc/assets/architectures.png
 tags: 'Linux, Operating Systems'
 ---
 
-[MS-DOS App Architecture]:   {{site.github.url}}/aaspellc/assets/MS-DOS_App_Architecture.png "MS-DOS App Architecture"
-[MS Word 1]:                 {{site.github.url}}/aaspellc/assets/word1-example-1.png "MS Word 1"
-[MS Word 2]:                 {{site.github.url}}/aaspellc/assets/word1-example-2.png "MS Word 2"
-[Windows Architecture]:      {{site.github.url}}/aaspellc/assets/Windows_Architecture.png "Windows Architecture"
-[Linux Architecture]:        {{site.github.url}}/aaspellc/assets/Linux_Architecture.png "Linux Architecture"
-[Windows 1]:                 {{site.github.url}}/aaspellc/assets/windows1.png "Windows 1"
-[Windows 2]:                 {{site.github.url}}/aaspellc/assets/windows2.png "Windows 2"
+[xMS-DOS App Architecture]:   {{site.github.url}}/aaspellc/assets/MS-DOS_App_Architecture.png "MS-DOS App Architecture"
+[xMS Word 1]:                 {{site.github.url}}/aaspellc/assets/word1-example-1.png "MS Word 1"
+[xMS Word 2]:                 {{site.github.url}}/aaspellc/assets/word1-example-2.png "MS Word 2"
+[xWindows Architecture]:      {{site.github.url}}/aaspellc/assets/Windows_Architecture.png "Windows Architecture"
+[xLinux Architecture]:        {{site.github.url}}/aaspellc/assets/Linux_Architecture.png "Linux Architecture"
+[xWindows 1]:                 {{site.github.url}}/aaspellc/assets/windows1.png "Windows 1"
+[xWindows 2]:                 {{site.github.url}}/aaspellc/assets/windows2.png "Windows 2"
 
 
 
