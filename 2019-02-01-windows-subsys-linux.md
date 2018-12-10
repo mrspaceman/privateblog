@@ -5,7 +5,7 @@ title: Windows Subsystem for Linux Internals
 summary: "A description of the windows subsystem for linux architecture"
 categories:
   - Tech
-image: aaspellc/assets/architectures.png
+image: aaspellc/assets/windows-arch.png
 tags: 'Linux, Operating Systems'
 ---
 
