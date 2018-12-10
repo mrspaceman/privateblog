@@ -15,7 +15,7 @@ tags: 'Linux, Operating Systems'
 
 # Windows Subsystem For Linux Internals
 
-# Background
+## Background
 
 Windows Subsystem for Linux was developed by Microsoft to enable command line
 programs compiled for the Linux operating system to be executed on Windows.
@@ -46,7 +46,7 @@ used the cursor keys to navigate around the screen.
 
 If the application required fancy graphics, sounds or networking (or just wanted to allow use of a mouse), then the application had to talk directly to that hardware using device specific drivers.
 
-![MS-DOS App Architecture]({{root_url}}/assets/MS-DOS_App_Architecture.png)
+![MS-DOS App Architecture]({{root_url}}/assets/ms-dos app arch.svg)
 
 If you changed your sound/network/video card, applications might stop working as they might not have drivers for it.
 
