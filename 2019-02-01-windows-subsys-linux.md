@@ -50,7 +50,7 @@ This allowed applications to display graphical elements
 emulated with text characters as these screenshots of
 Microsoft word for DOS show:
 
-![MS Word 1](MS Word 1)
+![MS Word 1]({{root_url}}/assets/word1-example-1.png)
 
 This is Microsoft Word version 1.
 
