@@ -9,23 +9,23 @@ image: aaspellc/assets/architectures.png
 tags: 'Linux, Operating Systems'
 ---
 
-[xMS-DOS App Architecture]:   {{site.github.url}}/aaspellc/assets/MS-DOS_App_Architecture.png "MS-DOS App Architecture"
-[xMS Word 1]:                 {{site.github.url}}/aaspellc/assets/word1-example-1.png "MS Word 1"
-[xMS Word 2]:                 {{site.github.url}}/aaspellc/assets/word1-example-2.png "MS Word 2"
-[xWindows Architecture]:      {{site.github.url}}/aaspellc/assets/Windows_Architecture.png "Windows Architecture"
-[xLinux Architecture]:        {{site.github.url}}/aaspellc/assets/Linux_Architecture.png "Linux Architecture"
-[xWindows 1]:                 {{site.github.url}}/aaspellc/assets/windows1.png "Windows 1"
-[xWindows 2]:                 {{site.github.url}}/aaspellc/assets/windows2.png "Windows 2"
+{% assign root_url = site.github.url %}
+# root_url1 : {{site.github.url}}
+
+{% assign root_url = site.github.url/aaspellc %}
+# root_url2 : {{site.github.url}}
+
+{% assign root_url = "/privateblog" %}
+# root_url3 : {{site.github.url}}
 
 
-
-[MS-DOS App Architecture]:   ./assets/MS-DOS_App_Architecture.png "MS-DOS App Architecture"
-[MS Word 1]:                 ./assets/word1-example-1.png "MS Word 1"
-[MS Word 2]:                 ./assets/word1-example-2.png "MS Word 2"
-[Windows Architecture]:      ./assets/Windows_Architecture.png "Windows Architecture"
-[Linux Architecture]:        ./assets/Linux_Architecture.png "Linux Architecture"
-[Windows 1]:                 ./assets/windows1.png "Windows 1"
-[Windows 2]:                 ./assets/windows2.png "Windows 2"
+[xMS-DOS App Architecture]:   {{root_url}}/assets/MS-DOS_App_Architecture.png "MS-DOS App Architecture"
+[xMS Word 1]:                 {{root_url}}/assets/word1-example-1.png "MS Word 1"
+[xMS Word 2]:                 {{root_url}}/assets/word1-example-2.png "MS Word 2"
+[xWindows Architecture]:      {{root_url}}/assets/Windows_Architecture.png "Windows Architecture"
+[xLinux Architecture]:        {{root_url}}/assets/Linux_Architecture.png "Linux Architecture"
+[xWindows 1]:                 {{root_url}}/assets/windows1.png "Windows 1"
+[xWindows 2]:                 {{root_url}}/assets/windows2.png "Windows 2"
 
 
 # Windows Subsystem For Linux Internals
