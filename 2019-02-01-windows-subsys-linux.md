@@ -69,7 +69,7 @@ This is the basic structure of windows today.
 User applications talk to a layer in the kernel that abstracts
 out all details of the hardware and presents a unified api to user applications.
 
-![Windows Architecture]({{root_url}}/assets/Windows_Architecture.png)
+![Windows Architecture]({{root_url}}/assets/windows kernel arch.svg)
 
 
 ## Linux
@@ -91,7 +91,7 @@ hardware devices directly not even by talking to device drivers.
 User applications talk to a layer in the kernel that abstracts
 out all details of the hardware and presents a unified api to user applications.
 
-![Linux Architecture]({{root_url}}/assets/Linux_Architecture.png)
+![Linux Architecture]({{root_url}}/assets/linux kernel arch.svg)
 
 
 # Windows Subsystem for Linux
@@ -113,7 +113,7 @@ basically it performs real time translation of Linux syscalls into Windows OS sy
 
 
 
-![Windows Subsystem for Linux Architecture](Windows-Subsystem-for-Linux-Architecture.png)
+![Windows Subsystem for Linux Architecture]({{root_url}}/assets/Windows-Subsystem-for-Linux-Architecture.svg)
 
 
 essentially microsoft wrote a linux kernel 'emulator', which allows programs that call into
@@ -134,7 +134,7 @@ http://wsl-guide.org/en/latest/
 
 X-Windows abstracted even more so that cheap workstations could run large applications.
 
-![X-Windows Architecture]({{root_url}}/assets/XWindows_Architecture.png)
+![X-Windows Architecture]({{root_url}}/assets/x-windows arch.svg)
 
 
 So we can install an X-Server on windows and then we can run graphical programs from the WSL.
