@@ -10,23 +10,8 @@ tags: 'Linux, Operating Systems'
 ---
 
 {% assign root_url = site.github.url %}
-# root_url1 : {{site.github.url}}
-
 {% assign root_url = site.github.url/aaspellc %}
-# root_url2 : {{site.github.url}}
-
 {% assign root_url = "/privateblog" %}
-# root_url3 : {{site.github.url}}
-
-
-[xMS-DOS App Architecture]:   {{root_url}}/assets/MS-DOS_App_Architecture.png "MS-DOS App Architecture"
-[xMS Word 1]:                 {{root_url}}/assets/word1-example-1.png "MS Word 1"
-[xMS Word 2]:                 {{root_url}}/assets/word1-example-2.png "MS Word 2"
-[xWindows Architecture]:      {{root_url}}/assets/Windows_Architecture.png "Windows Architecture"
-[xLinux Architecture]:        {{root_url}}/assets/Linux_Architecture.png "Linux Architecture"
-[xWindows 1]:                 {{root_url}}/assets/windows1.png "Windows 1"
-[xWindows 2]:                 {{root_url}}/assets/windows2.png "Windows 2"
-
 
 # Windows Subsystem For Linux Internals
 
@@ -54,14 +39,14 @@ Microsoft word for DOS show:
 
 This is Microsoft Word version 1.
 
-![MS Word 2](MS Word 2)
+![MS Word 2]({{root_url}}/assets/word1-example-2.png)
 
 To use these programs you had to remember key combinations to bring up the menus and
 used the cursor keys to navigate around the screen.
 
 If the application required fancy graphics, sounds or networking (or just wanted to allow use of a mouse), then the application had to talk directly to that hardware using device specific drivers.
 
-![MS-DOS App Architecture](MS-DOS App Architecture)
+![MS-DOS App Architecture]({{root_url}}/assets/MS-DOS_App_Architecture.png)
 
 If you changed your sound/network/video card, applications might stop working as they might not have drivers for it.
 
@@ -72,7 +57,7 @@ On 20th November 1985 Microsoft launched [Windows version 1.0](https://en.wikipe
 
 The first version of windows ran on top of MS-DOS and presented a Graphical User Interface.
 
-![Windows 1](Windows 1)
+![Windows 1]({{root_url}}/assets/windows1.png)
 
 Windows 1 introduced the hardware abstraction layer into PC application architecture. Windows 1 included drivers for video cards, a mouse, keyboards, printers and serial communications, and applications were supposed to only invoke The Windows APIs and not talk to the drivers directly.
 
@@ -84,7 +69,7 @@ This is the basic structure of windows today.
 User applications talk to a layer in the kernel that abstracts
 out all details of the hardware and presents a unified api to user applications.
 
-![Windows Architecture](Windows Architecture)
+![Windows Architecture]({{root_url}}/assets/Windows_Architecture.png)
 
 
 ## Linux
@@ -106,7 +91,7 @@ hardware devices directly not even by talking to device drivers.
 User applications talk to a layer in the kernel that abstracts
 out all details of the hardware and presents a unified api to user applications.
 
-![Linux Architecture](Linux Architecture)
+![Linux Architecture]({{root_url}}/assets/Linux_Architecture.png)
 
 
 # Windows Subsystem for Linux
@@ -149,7 +134,7 @@ http://wsl-guide.org/en/latest/
 
 X-Windows abstracted even more so that cheap workstations could run large applications.
 
-![X-Windows Architecture](XWindows_Architecture.png)
+![X-Windows Architecture]({{root_url}}/assets/XWindows_Architecture.png)
 
 
 So we can install an X-Server on windows and then we can run graphical programs from the WSL.
