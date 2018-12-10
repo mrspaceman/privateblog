@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[WSL](/2019-02-01-windows-subsys-linux)
+[WSL](/privateblog/2019-02-01-windows-subsys-linux)
 
 You can use the [editor on GitHub](https://github.com/mrspaceman/privateblog/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 

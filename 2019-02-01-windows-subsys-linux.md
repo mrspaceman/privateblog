@@ -19,13 +19,13 @@ tags: 'Linux, Operating Systems'
 
 
 
-[MS-DOS App Architecture]:   ../assets/MS-DOS_App_Architecture.png "MS-DOS App Architecture"
-[MS Word 1]:                 ../assets/word1-example-1.png "MS Word 1"
-[MS Word 2]:                 ../assets/word1-example-2.png "MS Word 2"
-[Windows Architecture]:      ../assets/Windows_Architecture.png "Windows Architecture"
-[Linux Architecture]:        ../assets/Linux_Architecture.png "Linux Architecture"
-[Windows 1]:                 ../assets/windows1.png "Windows 1"
-[Windows 2]:                 ../assets/windows2.png "Windows 2"
+[MS-DOS App Architecture]:   ./assets/MS-DOS_App_Architecture.png "MS-DOS App Architecture"
+[MS Word 1]:                 ./assets/word1-example-1.png "MS Word 1"
+[MS Word 2]:                 ./assets/word1-example-2.png "MS Word 2"
+[Windows Architecture]:      ./assets/Windows_Architecture.png "Windows Architecture"
+[Linux Architecture]:        ./assets/Linux_Architecture.png "Linux Architecture"
+[Windows 1]:                 ./assets/windows1.png "Windows 1"
+[Windows 2]:                 ./assets/windows2.png "Windows 2"
 
 
 # Windows Subsystem For Linux Internals
