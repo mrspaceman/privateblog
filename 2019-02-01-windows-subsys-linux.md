@@ -46,7 +46,8 @@ used the cursor keys to navigate around the screen.
 
 If the application required fancy graphics, sounds or networking (or just wanted to allow use of a mouse), then the application had to talk directly to that hardware using device specific drivers.
 
-![MS-DOS App Architecture]({{root_url}}/assets/ms-dos app arch.svg | width=400)
+![MS-DOS App Architecture]({{root_url}}/assets/ms-dos app arch.svg | width=100)
+![test](https://github.com/favicon.ico | width=48)
 
 If you changed your sound/network/video card, applications might stop working as they might not have drivers for it.
 
