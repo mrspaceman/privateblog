@@ -107,8 +107,7 @@ the Windows subsystem for linux was written to allow text mode linux programs to
 basically it performs real time translation of Linux syscalls into Windows OS syscalls.
 
 
-
-![Windows Subsystem for Linux Architecture]({{root_url}}/assets/Windows-Subsystem-for-Linux-Architecture.svg)
+<img src="{{root_url}}/assets/Windows-Subsystem-for-Linux-Architecture.svg" width="400">
 
 
 essentially microsoft wrote a linux kernel 'emulator', which allows programs that call into
