@@ -26,14 +26,9 @@ that has enabled this subsystem to be built.
 ## Dark Ages (or Back in the Day)
 
 Microsoft's MS-DOS was quite primitive in it's design (compared to todays OS's).
-It is a single user OS
-that can execute one process at a time. DOS had an application programming interface
-to allow user programs to access some hardware in a device independent way,
-but only for character based applications.
+It is a single user OS that can execute one process at a time. DOS had an application programming interface to allow user programs to access some hardware in a device independent way, but only for character based applications.
 
-This allowed applications to display graphical elements
-emulated with text characters as these screenshots of
-Microsoft word for DOS show:
+This allowed applications to display graphical elements emulated with text characters as these screenshots of Microsoft word for DOS show:
 
 ![MS Word 1]({{root_url}}/assets/word1-example-1.png)
 
@@ -41,14 +36,12 @@ This is Microsoft Word version 1.
 
 ![MS Word 2]({{root_url}}/assets/word1-example-2.png)
 
-To use these programs you had to remember key combinations to bring up the menus and
-used the cursor keys to navigate around the screen.
+To use these programs you had to remember key combinations to bring up the menus and used the cursor keys to navigate around the screen.
 
 If the application required fancy graphics, sounds or networking (or just wanted to allow use of a mouse), then the application had to talk directly to that hardware using device specific drivers.
 
-<img src="{{root_url}}/assets/ms-dos app arch.svg" width="400">
-![MS-DOS App Architecture]({{root_url}}/assets/ms-dos app arch.svg | width=100)
-![test](https://github.com/favicon.ico | width=48)
+<img src="{{root_url}}/assets/ms-dos app arch.svg" width="500">
+
 
 If you changed your sound/network/video card, applications might stop working as they might not have drivers for it.
 
@@ -71,7 +64,7 @@ This is the basic structure of windows today.
 User applications talk to a layer in the kernel that abstracts
 out all details of the hardware and presents a unified api to user applications.
 
-![Windows Architecture]({{root_url}}/assets/windows kernel arch.svg)
+<img src="{{root_url}}/assets/windows kernel arch.svg" width="400">
 
 
 ## Linux
@@ -93,7 +86,7 @@ hardware devices directly not even by talking to device drivers.
 User applications talk to a layer in the kernel that abstracts
 out all details of the hardware and presents a unified api to user applications.
 
-![Linux Architecture]({{root_url}}/assets/linux kernel arch.svg)
+<img src="{{root_url}}/assets/linux kernel arch.svg" width="400">
 
 
 # Windows Subsystem for Linux
